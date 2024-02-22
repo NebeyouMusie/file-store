@@ -1,6 +1,10 @@
+import Dropzone from "@/components/Dropzone"
+
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+      <Dropzone />
+    </div>
   )
 }
 
