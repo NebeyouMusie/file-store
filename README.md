@@ -2,11 +2,11 @@
 
 ## Image
 
-![Nike Landing Page Homepage](/public/images/fileZ.png)
+![fileZ file store website](/public/images/fileZ.png)
 
 ## Description
 
-A responsive file storage app built 
+A responsive and modern website that lets you store files all in one palce. 
 
 ## Live Project
 
@@ -15,9 +15,11 @@ A responsive file storage app built
 
 ## Key Features
 
+- User management - using Clerk for user authentications and management.
 - Responsive design: Adapts seamlessly to various screen sizes for optimal user experience.
 - Dynamic content: Utilizes React's components for modularity and easy updates.
 - Tailwind CSS integration: Enables rapid styling and customization with utility classes.
+- Drag n Drop
 
 ## Technologies
 
@@ -38,7 +40,9 @@ A responsive file storage app built
 ## Usage
 
 1. Open http://localhost:3000 in your browser to view the project locally.
-2. Explore the interactive elements and functionality of the landing page.
+2. Sign in using your google account or your email.
+3. Upload files.
+4. Explore the interactive elements and functionality in the table.
 
 ## Credit
 
