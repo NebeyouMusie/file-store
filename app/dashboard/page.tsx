@@ -32,7 +32,7 @@ const Dashboard = async () => {
       <section className="space-y-5 container">
         <h2 className="font-bold">All Files</h2>
         <div>
-          <TableWrapper skeletonFiles={skeletonFiles}/>
+          <TableWrapper skeletonFiles={skeletonFiles} />
         </div>
       </section>
     </div>

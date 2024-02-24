@@ -13,7 +13,7 @@ const Header = () => {
 
       <div className="px-5 flex items-center space-x-5">
         <ThemeToggler />
-        <UserButton afterSignOutUrl="/"/>
+        <UserButton afterSignOutUrl="/" />
 
         <SignedOut>
           <SignInButton afterSignInUrl="/dashboard" mode="modal" />

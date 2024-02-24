@@ -84,7 +84,6 @@ export function DataTable<TData, TValue>({
                 key={row.id}
                 data-state={row.getIsSelected() && "selected"}
               >
-
                 <DeleteModal />
                 <RenameModal />
 

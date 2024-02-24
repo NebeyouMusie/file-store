@@ -1,5 +1,3 @@
-
-
 import { FileType } from "@/typings";
 import { ColumnDef } from "@tanstack/react-table";
 import prettyBytes from "pretty-bytes";

@@ -5,5 +5,5 @@ export type FileType = {
   timestamp: Date;
   downloadURL: string;
   type: string;
-  size: number; 
-}
+  size: number;
+};

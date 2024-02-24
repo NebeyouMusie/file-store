@@ -14,4 +14,4 @@ export const COLOR_EXTENSION_MAP: {
   png: "#4fb6f4",
   gif: "#d4af37",
   txt: "#00000",
-}
+};

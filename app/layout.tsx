@@ -12,8 +12,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | fileZ',
-    default: 'fileZ'
+    template: "%s | fileZ",
+    default: "fileZ",
   },
   description: "Store all your files in one palce.",
 };
@@ -35,7 +35,7 @@ export default function RootLayout({
           >
             <Header />
             {children}
-            <Toaster position="top-center"/>
+            <Toaster position="top-center" />
           </ThemeProvider>
         </body>
       </html>
