@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
 import Dropzone from "@/components/Dropzone";
 import TableWrapper from "@/components/table/TableWrapper";
 import { db } from "@/firebase";
 import { FileType } from "@/typings";
 import { auth } from "@clerk/nextjs";
 import { collection, getDocs } from "firebase/firestore";
+
+export const metadata: Metadata = {
+  title: "dashboard",
+  description: "dashboard page",
+};
 
 const Dashboard = async () => {
   const { userId } = auth();
