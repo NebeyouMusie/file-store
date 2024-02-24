@@ -4,7 +4,7 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
-
+import { Toaster } from "react-hot-toast";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -24,16 +24,17 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={poppins.className}>
-        <ThemeProvider
+          <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
           >
-          <Header />
-          {children}
+            <Header />
+            {children}
+            <Toaster position="top-center"/>
           </ThemeProvider>
-          </body>
+        </body>
       </html>
     </ClerkProvider>
   );
