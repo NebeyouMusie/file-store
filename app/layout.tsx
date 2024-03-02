@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | fileZ",
     default: "fileZ",
   },
-  description: "Store all your files in one palce.",
+  description: "Store all your files in one place.",
 };
 
 export default function RootLayout({
